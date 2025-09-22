@@ -51,6 +51,8 @@ I had also considered the idea of making the add sugar and add milk functions in
 the concrete classes would have to implement. However I decieded this would cause uneccessary code
 duplication 
 
+# UML Diagram
+![Diagram of workflow](uml/UML.png)
 # Maven Commands
 
 We'll use Apache Maven to compile and run this project. You'll need to install Apache Maven (https://maven.apache.org/) on your system. 
