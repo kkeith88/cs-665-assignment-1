@@ -14,7 +14,7 @@ coffee and tea drinks. The condiments that a user is able to add is sugar and or
 of each.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/kkeith88/cs-665-assignment-1
 
 # Implementation Description 
 
