@@ -58,6 +58,7 @@ duplication
 # UML Diagram
 ![Diagram of workflow](uml/UML.png)
 
+Note: Other concrete classes are stacked below the espresso diagram. All other concrete classes have the same getBasePrice method and their respective constructor
 
 # Maven Commands
 
