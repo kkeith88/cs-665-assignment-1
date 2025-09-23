@@ -2,8 +2,8 @@
  * Name: Keith Kwan
  * Course: CS-665 Software Designs & Patterns
  * Date: 09/21/2025
- * File Name: Main.java
- * Description: Write a description for this class
+ * File Name: Latte.java
+ * Description: Represents a Latte beverage.
  */
 
 package edu.bu.met.cs665.beverage;
