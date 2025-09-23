@@ -29,7 +29,11 @@ be easily added or removed in the future.
     as calculating the price and adding condiments will be inherited.
 - Discuss the simplicity and understandability of your implementation, ensuring that it is
 easy for others to read and maintain.
-    - efsdf
+    - My approach to this assignment was to create an abstract beverage class and then have concrete
+    classes inherit the functions and vars from the abstract beverage class. Since all the drinks
+    share the same properties and function the same most of the attributes and methods are within
+    the abstract class. In order to add a new drink, creating a new concrete class inheriting the 
+    beverage class would allow it to function and act the same as the rest of the other drinks
 - Describe how you have avoided duplicated code and why it is important.
     - To avoid code duplication I aimed to have most of the shared logic within the abstract beverage
     class. By doing so any of the concrete classes that inherit from beverages would have all
@@ -53,6 +57,8 @@ duplication
 
 # UML Diagram
 ![Diagram of workflow](uml/UML.png)
+
+
 # Maven Commands
 
 We'll use Apache Maven to compile and run this project. You'll need to install Apache Maven (https://maven.apache.org/) on your system. 
