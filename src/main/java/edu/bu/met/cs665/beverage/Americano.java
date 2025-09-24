@@ -14,6 +14,10 @@ public class Americano extends Beverage {
         this.name = "Americano";
         this.price = 3.0;
     }
+
+    /**
+     * Overrides getBasePrice method in Beverage class
+     */
     @Override
     protected double getBasePrice() {
         return 3.0;

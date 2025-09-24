@@ -14,6 +14,10 @@ public class Latte extends Beverage {
         this.name = "Latte";
         this.price = 4.0;
     }
+
+    /**
+     * Overrides getBasePrice method in Beverage class
+     */
     @Override
     protected double getBasePrice() {
         return 4.0;
