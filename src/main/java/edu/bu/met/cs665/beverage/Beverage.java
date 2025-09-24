@@ -16,18 +16,38 @@ public abstract class Beverage {
     private int milkUnits;
     private int sugarUnits;
 
+    /**
+     * Get the name of the beverage
+     * @param none
+     * @return
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * Get the milk units of the beverage
+     * @param none
+     * @return
+     */
     public int getMilkUnits() {
         return milkUnits;
     }
 
+    /**
+     * Get the sugar units of the beverage
+     * @param none
+     * @return
+     */
     public int getSugarUnits() {
         return sugarUnits;
     }
 
+    /**
+     * Get the price of the beverage
+     * @param none
+     * @return double price
+     */
     public double getPrice() {
         return price;
     }

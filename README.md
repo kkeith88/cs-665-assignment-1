@@ -11,7 +11,7 @@
 For assignment 1 we are tasked with creating an automated beverage machine that can dispense drinks
 as well as add condiments to them. The beverage machine is required to dispense different type of
 coffee and tea drinks. The condiments that a user is able to add is sugar and or milk, up to 3 units
-of each.
+of each. Each unit of condiment added was priced at 50 cents per unit.
 
 # GitHub Repository Link:
 https://github.com/kkeith88/cs-665-assignment-1
@@ -46,7 +46,7 @@ chosen.
 
 In this assigment, I decided that having an abstract beverage class and then using that as the blueprint
 for the concrete classes would allow modular yet simpler design. When first reading the requirements
-it stood out to me that all the different beverage function more or less the same. They each have a name,
+it stood out to me that all the different beverages function more or less the same. They each have a name,
 price, sugar, and milk. Since all these beverages share the same fields I was able to keep them in the 
 abstract class. However if we were to decide that this beverage machine would also serve drinks like
 canned drinks or bottles we would have to slightly redefine what we consider a beverage. 
