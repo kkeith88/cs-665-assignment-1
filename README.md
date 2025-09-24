@@ -56,7 +56,7 @@ the concrete classes would have to implement. However I decieded this would caus
 duplication 
 
 # UML Diagram
-![Diagram of workflow](uml/UML1.png)
+![Diagram of workflow](uml/UMLFINAl.png)
 
 Note: Other concrete classes are stacked below the espresso diagram. All other concrete classes have the same getBasePrice method and their respective constructor
 
