@@ -116,6 +116,9 @@ public class TestBeverage {
         assertEquals(3, americano.getPrice(), 0.01);
     }
     
+    /**
+     * Test name and price for Latte, check object is instantiated correctly
+     */
     @Test
     public void getNameAndPriceForLatte(){
         Latte latte = new Latte();
@@ -123,6 +126,9 @@ public class TestBeverage {
         assertEquals(4, latte.getPrice(), 0.01);
     }
 
+    /**
+     * Test name and price for Black Tea, check object is instantiated correctly
+     */
     @Test
     public void getNameAndPriceForBlackTea(){
         BlackTea blackTea = new BlackTea();
